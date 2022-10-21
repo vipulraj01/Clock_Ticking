@@ -4,3 +4,4 @@ hour,minute = map(int,input().split(":"))
 a = 30*hour
 b = 11/2*minute
 formula = a-b
+if formula>=180:
