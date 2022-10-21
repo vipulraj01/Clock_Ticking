@@ -9,3 +9,4 @@ if formula>=180:
     if z>=180:
         z = int(abs(z-360))
     print(z,"°",sep="")
+else:
