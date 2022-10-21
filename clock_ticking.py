@@ -5,3 +5,4 @@ a = 30*hour
 b = 11/2*minute
 formula = a-b
 if formula>=180:
+    z = int(abs(formula-360))
