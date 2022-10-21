@@ -7,3 +7,4 @@ formula = a-b
 if formula>=180:
     z = int(abs(formula-360))
     if z>=180:
+        z = int(abs(z-360))
