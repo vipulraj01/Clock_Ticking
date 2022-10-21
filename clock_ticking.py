@@ -11,3 +11,4 @@ if formula>=180:
     print(z,"°",sep="")
 else:
     y = int(abs(formula))
+    print(y,"°",sep="")
